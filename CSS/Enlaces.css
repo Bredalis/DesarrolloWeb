@@ -1,0 +1,32 @@
+
+a{
+	font-size: 20px;
+	color: skyblue;
+	text-decoration: none;
+	margin: 10px 10px;
+	padding: 10px 10px;
+	display: inline-block;
+}
+
+/* Seudoclases */
+/* Manipulacion a los enlaces no visitados */
+
+a:link{
+	color: #CCD1D1;
+}
+
+a:hover{
+	text-decoration: underline;
+	font-size: 20px;
+	background: pink;
+	color: white;
+}
+
+a:active{
+	background: orange;
+}
+
+a:visited{
+	color: purple;
+	text-decoration: line-through;
+}

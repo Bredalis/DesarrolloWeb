@@ -1,0 +1,15 @@
+
+body{
+	font-size: 16px;
+	background: pink;
+}
+
+p{
+	font-size: 20px;
+}
+
+p blockquote{
+	font-size: 2rem;
+	width: 50%;
+	height: 50%;
+}

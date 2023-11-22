@@ -1,0 +1,30 @@
+
+/* Selector universal */
+
+*{
+	margin:5;
+	padding: 2;
+	color: brown;
+	font-style: italic;
+}
+
+h1, h2{
+	color: lightblue;
+}
+
+h3{
+	font-size: 50px;
+	color: blueviolet;
+}
+
+h2 strong{
+	color: pink;
+}
+
+.Titular-4{
+	color: green;
+}
+
+#Titular-5{
+	color: coral;
+}

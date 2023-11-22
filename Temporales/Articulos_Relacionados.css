@@ -1,0 +1,40 @@
+
+/* Aside de los articulos de relacionados */
+
+.container-aside aside{
+	width: 320px;
+	bolder-rigth: 6px;
+	box-shadow: 0 0 20px -20px black;
+	border-radius: 6px;
+	overflow: hidden;
+	margin-left: 40px;
+	margin-top: 25px;
+	margin-bottom: 40px;
+	padding-bottom: 20px;
+}
+
+.container-aside aside img{
+	width: 100%;
+}
+
+.container-aside aside h2,
+.container-aside aside p{
+	margin-top: 20px;
+	padding: 0px 20px;
+}
+
+.container-aside aside button{
+	margin-top: 20px;
+	margin-left: 20px;
+	padding: 10px 50px;
+	font-size: 16px;
+	background: #46a2fd;
+	border: none;
+	color: #fff;
+	cursor: pointer;
+	border-radius: 6px;
+}
+
+.container-aside aside button:hover{
+	opacity: 0.9;
+}

@@ -1,0 +1,86 @@
+
+*{
+	text-decoration: none;
+	list-style: none;
+	text-align: center;
+	font-family: cursive;
+	border-radius: 10%;
+}
+
+body{
+	background: #FADBD8;
+}
+
+header{
+	position: fixed;
+	background: #F2D7D5;
+	max-width: 22%;
+}
+
+ul li{
+	position: relative;
+	right: 20px;
+	padding-top: 25px;
+}
+
+#Definicion, #Media-Queries, #Viewport-Escalabilidad, 
+#Menus-Navegación-Responsivos, #Frameworks-Librerías-Responsive, 
+#Flexbox-Grid-Layout, #Imagenes-Responsivas, #Tipografía-Tamaños-Fuente, 
+#Diseño-Web-Adaptativo-Móvil-Separado, #Accesibilidad-Diseño-Responsivo{
+	display: inline-block;
+	padding: 10px;
+	margin: 20px;
+	max-width: 50%;
+	background: #F5B7B1;
+}
+
+div p{
+	display: flex;
+}
+
+#Logo img{
+	position: relative;
+	top: -100px;
+	left: 330px;
+	max-width: 80px;
+	animation: movimiento_logo 2s linear infinite;
+}
+
+#Logo h1{
+	padding: 10px;
+	margin: 30px;
+}
+
+img{
+	max-width: 200px;
+	border-radius: 20%;
+	cursor: pointer;
+}
+
+footer img{
+	max-width: 50px;
+	animation: none;
+}
+
+footer button{
+	border: none;
+	background: #FADBD8;
+}
+
+/* Uso de hover */
+
+ul li:hover, img:hover, footer img:hover{
+	transform: scale(1.1);
+}
+
+/* Funcion de Movimiento */
+
+@keyframes movimiento_logo{
+	50%{
+		transform: translateY(10px);
+	}
+
+	50%{
+		transform: translateY(10px);
+	}
+}

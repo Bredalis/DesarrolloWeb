@@ -1,0 +1,14 @@
+
+body{
+	background: url("../IMG/Communities.png");
+	background-repeat: repeat-y;
+	background-attachment: fixed;
+	color: blue;
+	background-position: center 0px;
+}
+
+div{
+	background: url("../IMG/Communities.png");
+	height: 300px;
+	background-repeat: no-repeat;
+}
