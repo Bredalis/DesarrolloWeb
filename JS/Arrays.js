@@ -27,7 +27,7 @@ console.log("Matriz moderna:", matriz_moderna);
 
 let paises = ["Chile", "Mexico", "Brasil"];
 
-for(let i=0; i<paises.length; i++){
+for(let i = 0; i < paises.length; i++){
 	console.log(paises[i]);
 
 	if(paises[i] == "Chile"){
@@ -37,8 +37,8 @@ for(let i=0; i<paises.length; i++){
 
 // Recorrer matrices
 
-for(let f=0; f<matriz.length; f++){
-	for(let c=0; c<matriz[f].length; c++){
+for(let f = 0; f < matriz.length; f++){
+	for(let c = 0; c < matriz[f].length; c++){
 		console.log(matriz[f][c]);
 	}
 }
