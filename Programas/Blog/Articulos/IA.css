@@ -1,14 +1,13 @@
 
 *{
-	text-align: center;
+	font-family: sans-serif;
 }
 
 #logo{
 	position: fixed;
 	z-index: 10;
-	padding-bottom: 15px;
 	max-width: 100%;
-	background: #ecf0f1;
+	background: #B0EBE9;
 }
 
 #logo a{
@@ -16,7 +15,6 @@
 }
 
 #logo h1{
-	text-align: left;
 	padding-top: 40px;
 	margin-left: 90px;
 	color: #52BE80;
@@ -27,52 +25,65 @@ sup{
 	color: #229954;
 }
 
-#logo #loggin{
+#logo button, #logo #loggin{
 	position: relative;
 	float: right;
 	top: -60px;
-	margin-right: 90px;
+	margin-right: 120px;
 	border-radius: 60px;
 }
 
-#inicio{
-	padding-top: 228px;
-	margin-bottom: 50px;
+#logo button{
+	margin-right: 20px;
 }
 
-#inicio img{
-	max-width: 110%;
-	cursor: pointer;
+#main{
+	padding-top: 18%;
 }
 
-#inicio h2{
-	padding-top: 80px;
-	padding-bottom: 10px;
+#main #articles{
+	width: 68.5%;
+	margin-right: 1.5%;
+	float: left;
+	background: #fff;
 }
 
-#inicio blockquote{
-	text-align: left;
-	padding-left: 100px;
+#main #articles article{
+	padding: 20px;
+	background: #fff;
+	margin-bottom: 20px;
+	padding-right: 30px;
 }
 
-#inicio p{
-	padding-top: 35px;
+aside{
+	text-align: center;
+	position: relative;
+	bottom: 2340px;
+	margin-bottom: -2300px;
+	float: left;
+	left: 550px;
 }
 
-#contenedor{
-	margin-left: 100px;
-	cursor: pointer;
+aside img{
+	position: relative;
+	left: 90px;
+	padding-bottom: 50px;
+	border-radius: 10%;
+	max-width: 30%;
 }
 
-#contenedor #contenedor-interno:hover{
-	background: #D4EFDF;
-	transform: scale(1.1);
-	box-shadow: 5px 5px 0px #229954;
+aside h3{
+	padding-bottom: 40px;
+	position: relative;
+	left: 90px;
 }
 
 #comentarios{
+	clear: both;
+	text-align: center;
 	margin: 50px;
 	padding: 30px;
+	background: #B0EBE9;
 }
 
 #comentarios img{
@@ -85,6 +96,7 @@ sup{
 }
 
 #comentarios textarea{
+	text-align: center;
 	margin: 50px;
 	height: 50%;
 	width: 50%;
@@ -103,8 +115,8 @@ sup{
 	border-radius: 6px;
 }
 
-#footer h2{
-	color: white;
+#footer{
+	text-align: center;
 }
 
 #footer img{

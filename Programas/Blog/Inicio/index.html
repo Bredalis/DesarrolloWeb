@@ -17,8 +17,9 @@
 		<header>
 			<nav>
 				<a href="#" class="btn btn-outline-dark" id="Home" onclick="CambiarColor(this)">Home</a>
-				<a href="" target="_black" class="btn btn-outline-dark" onclick="CambiarColor(this)">¡Crea un articulo!</a>
+				<a href="..\Articulos\Espacio_Para_Creacion_De_Articulos.html" target="_black" class="btn btn-outline-dark" onclick="CambiarColor(this)">¡Crea un articulo!</a>
 				<a href="#contenedor" class="btn btn-outline-dark" onclick="CambiarColor(this)">News</a>
+				<a href="..\Bloggers\Publicacion.html" target="_blanck" class="btn btn-outline-dark" onclick="CambiarColor(this)">¡Bloggea!</a>
 			</nav>
 		</header>
 	</div>
@@ -41,21 +42,44 @@
 	</div>
 
 	<div class="container py-4" id="contenedor">
-		<div class="card" id="subcontenedor">
-			<a href="C:\Users\Angelica Gerrero\Desktop\LenguajesDeProgramacion\DesarrolloWeb\Programas\Blog\Articulos\Primer_Articulo.html" target="_black">
-				<div class="card-body" id="contenedor-interno">
+		<div class="row">
+			<div class="col-md-6">
+				<div class="card" id="subcontenedor">
+					<a href="C:\Users\Angelica Gerrero\Desktop\LenguajesDeProgramacion\DesarrolloWeb\Programas\Blog\Articulos\IA.html" target="_blanck">
+						<div class="card-body" id="contenedor-interno">
 
-					<img src="Blog.avif">
+							<img src="../Articulos/IA.avif">
 
-					<h2 class="h5 card-title">¡Publicando mi primer artículo en el blog!</h2>
-					<blockquote class="h6 card-subtitle text-muted mb-2">
-						<i>Creado por <cite>Bredalis Guerrero</cite> | Top</i>
-						<i>10/11/2023</i>
-					</blockquote>
+							<h2 class="h5 card-title">Publicado: ¿Qué es la IA?</h2>
+							<blockquote class="h6 card-subtitle text-muted mb-2">
+								<i>Creado por <cite>Bredalis Guerrero</cite> | Info</i>
+								<i>8/12/2023</i>
+							</blockquote>
+						</div>
+					</a>
 				</div>
-			</a>
+			</div>
+			<div class="col-md-6">
+
+				<div class="card" id="subcontenedor">
+					<a href="C:\Users\Angelica Gerrero\Desktop\LenguajesDeProgramacion\DesarrolloWeb\Programas\Blog\Articulos\Primer_Articulo.html" target="_blanck">
+						<div class="card-body" id="contenedor-interno">
+
+							<img src="Blog.avif">
+
+							<h2 class="h5 card-title">¡Publicando mi primer artículo en el blog!</h2>
+							<blockquote class="h6 card-subtitle text-muted mb-2">
+								<i>Creado por <cite>Bredalis Guerrero</cite> | Top</i>
+								<i>10/11/2023</i>
+							</blockquote>
+						</div>
+					</a>
+				</div>
+			</div>
 		</div>
 	</div>
+
+
 
 	<script src="index.js"></script>
 </body>	
