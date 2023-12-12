@@ -1,2 +1,2 @@
-# DesarrolloWeb
-Uso de HTML, CSS y JS
+# Web development
+Use of HTML, CSS and JS
