@@ -10,7 +10,7 @@ var preguntas = [
 ];
 
 // Mostrar preguntas al usuario
-function Pregunta(num){
+function Mostrar_Pregunta(num){
 	process.stdout.write(preguntas[num]);
 }
 
@@ -19,7 +19,7 @@ process.stdin.on('data', function(data){
 	respuestas.push(data.toString().trim());
 
 	if(respuestas.length < preguntas.length){
-		Pregunta(respuestas.length);
+		Mostrar_Pregunta(respuestas.length);
 		
 	}else{
 		process.exit();
@@ -27,4 +27,4 @@ process.stdin.on('data', function(data){
 });
 
 // Iniciar proceso
-Pregunta(0);
+Mostrar_Pregunta(0);

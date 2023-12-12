@@ -1,7 +1,7 @@
 
 // Importar modulos
-var ruta = require("path");
+var path = require("path");
 
 console.log("Nombre del directorio:", __dirname);
-console.log("Nombre del archivo:", __filename);
-console.log(ruta.basename(__filename));
+console.log("Ruta del archivo:", __filename);
+console.log("Nombre del archivo:", path.basename(__filename));
