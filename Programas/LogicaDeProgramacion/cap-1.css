@@ -1,0 +1,43 @@
+
+h1, h2{
+	margin: 10px;
+	padding: 30px;
+}
+
+p{
+	width: 90%;
+}
+
+.imagen{
+	border-radius: 50%;
+}
+
+.imagen-2{
+	border-radius: 30%;
+}
+
+ul li img{
+	max-width: 40px;
+}
+
+#Lenguajes ul li{
+	display: inline-block;
+	margin: 10px;
+}
+
+#Videos {
+	margin: 20px;
+}
+
+#Videos a{
+	text-decoration: none;
+}
+
+#Videos nav{
+	margin: 40px;
+}
+
+footer{
+	text-align: center;
+	margin: 20px;
+}

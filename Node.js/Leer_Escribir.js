@@ -1,7 +1,6 @@
 
 // Leer y escribir en consola
 
-var nombre;
 var respuestas = [];
 var preguntas = [
 	'Cual es tu nombre?',
