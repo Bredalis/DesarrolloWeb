@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Textarea</title>
+	<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</head>
+<body>
+
+	<h5>Comentarios</h5>
+	
+	<form>
+		<p>
+			<textarea id="comentarios" rows="20" cols="40"></textarea>
+			<input type="button" value="Enviar" onclick="Comentar()">
+		</p>
+	</form>
+
+	<script>
+
+		let area = document.getElementById('comentarios');
+
+		function Comentar(){
+
+			if(area.value.length > 100){
+				swal("Comentario muy largo, cantidad de caracteres" + area.value.length);
+			}else{
+				swal("Gracias!");
+			}
+		}
+		
+	</script>
+</body>
+</html>

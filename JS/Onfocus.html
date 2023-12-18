@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Onfocus</title>
+	<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</head>
+<body>
+
+	<h4>Ingrese sus datos</h4>
+
+	<form>
+		<label for="nombre">Nombre:</label>
+		<input type="text" id="nombre" onfocus="Vaciar(this)" value="Nombre">
+		<br><br>
+
+		<label for="edad">Edad:</label>
+		<input type="text" id="edad" onfocus="Vaciar(this)" value="Edad">
+		<br><br>
+
+		<input type="button" value="Ingresar" onclick="Verificar()">
+	</form>
+
+	<script>
+
+		function Vaciar(control){
+			control.value = " ";
+		}
+
+		function Verificar(){
+			swal("Datos confirmados");
+		}
+
+	</script>	
+</body>
+</html>

@@ -4,8 +4,13 @@
 	width: 100%;
 }
 
-#Logica-Programacion h1{
+#Desarrollo-Software h1{
 	padding-top: 130px;
+}
+
+#Desarrollo-Software img{
+	border-radius: 20%;
+	margin-bottom: 25px;
 }
 
 h1, h2{
@@ -15,14 +20,7 @@ h1, h2{
 
 p{
 	width: 90%;
-}
-
-.imagen{
-	border-radius: 50%;
-}
-
-.imagen-2{
-	border-radius: 30%;
+	padding: 16px;
 }
 
 ul li img{
@@ -33,7 +31,8 @@ ul li img:hover{
 	transform: scale(1.1);
 }
 
-#Lenguajes ul li{
+#Tipos-Datos ul li, #Desarrollo-Software ul li, 
+#Algoritmos ul li, #Datos-Operadores ul li{
 	display: inline-block;
 	margin: 10px;
 }

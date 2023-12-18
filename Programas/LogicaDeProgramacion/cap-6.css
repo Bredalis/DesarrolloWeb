@@ -4,9 +4,14 @@
 	width: 100%;
 }
 
-#Logica-Programacion h1{
+#Variables-Constantes h1{
 	padding-top: 130px;
 }
+
+/*#Variables-Constantes img{
+	border-radius: 20%;
+	margin-bottom: 25px;
+}*/
 
 h1, h2{
 	margin: 10px;
@@ -15,14 +20,7 @@ h1, h2{
 
 p{
 	width: 90%;
-}
-
-.imagen{
-	border-radius: 50%;
-}
-
-.imagen-2{
-	border-radius: 30%;
+	padding: 16px;
 }
 
 ul li img{
@@ -33,7 +31,8 @@ ul li img:hover{
 	transform: scale(1.1);
 }
 
-#Lenguajes ul li{
+#Incremento-Decremento ul li, #Variables-Constantes ul li, 
+#Matrices ul li, #Colecciones ul li{
 	display: inline-block;
 	margin: 10px;
 }
