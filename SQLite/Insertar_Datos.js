@@ -7,19 +7,18 @@ const db = new sqlite3.Database('BBDD.db');
 
 // Insertar datos
 const instruccion = `
-
-	INSERT INTO Usuarios(Nombre, Email)
-	VALUES(1, "Yulissa", "YulissaBastardo@gmail.com")
-`;
+	INSERT INTO Usuarios(ID, Nombre, Email)
+	VALUES(1, 'Yulissa', 'YulissaBastardo@gmail.com')`;
 
 // Ejecutar
 db.serialize(() => {
 	db.run(instruccion, (err) => {
 
 		if (err){
-			console.error("Error al insertar datos:", err.message);
+			console.error('Error al insertar datos:', err.message);
 		}else{
-			console.log("Datos insertados correctamente en la tabla 'Usuarios'");
+			console.log(
+				'Datos insertados correctamente en la tabla 'Usuarios'');
 		}
 
 	});

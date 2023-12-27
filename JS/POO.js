@@ -1,5 +1,5 @@
 
-class Persona {
+class persona {
   constructor(nombre, edad) {
     this.nombre = nombre;
     this.edad = edad;
@@ -10,7 +10,7 @@ class Persona {
   }
 }
 
-function cambiarTexto() {
-  var elemento = document.getElementById("parrafo");
-  elemento.innerHTML = "¡El texto ha sido cambiado con JavaScript!";
+function cambiar_texto() {
+  var elemento = document.getElementById('parrafo');
+  elemento.innerHTML = '¡El texto ha sido cambiado con JavaScript!';
 }

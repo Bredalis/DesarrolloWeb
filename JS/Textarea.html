@@ -13,7 +13,7 @@
 	<form>
 		<p>
 			<textarea id="comentarios" rows="20" cols="40"></textarea>
-			<input type="button" value="Enviar" onclick="Comentar()">
+			<input type="button" value="Enviar" onclick="comentar()">
 		</p>
 	</form>
 
@@ -21,12 +21,12 @@
 
 		let area = document.getElementById('comentarios');
 
-		function Comentar(){
+		function comentar(){
 
 			if(area.value.length > 100){
-				swal("Comentario muy largo, cantidad de caracteres" + area.value.length);
+				swal('Comentario muy largo, cantidad de caracteres' + area.value.length);
 			}else{
-				swal("Gracias!");
+				swal('Gracias!');
 			}
 		}
 		

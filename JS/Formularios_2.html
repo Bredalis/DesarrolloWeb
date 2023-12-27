@@ -18,7 +18,7 @@
 		<input type="password" id="clave">
 		<br><br>
 
-		<input type="button" value="Confirmar" onclick="Verificar()">
+		<input type="button" value="Confirmar" onclick="verificar()">
 	</form>
 
 	<script>
@@ -26,15 +26,15 @@
 		let control = 0;
 		var codigo_acceso = 'acceso01';
 
-		function Verificar(){
+		function verificar(){
 			let clave = document.getElementById('clave').value;
 
-			if(clave != codigo_acceso || clave == ""){
-				alert("Clave incorrecta o vacia, intentelo de nuevo");
+			if(clave != codigo_acceso || clave == ''){
+				alert('Clave incorrecta o vacia, intentelo de nuevo');
 				control++;
 
 				if(control >= 3){
-					alert("Intentos agotados");
+					alert('Intentos agotados');
 				}
 			}else{
 				window.open('http://www.google.com');

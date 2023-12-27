@@ -12,24 +12,24 @@
 
 	<form>
 		<label for="nombre">Nombre:</label>
-		<input type="text" id="nombre" onfocus="Vaciar(this)" value="Nombre">
+		<input type="text" id="nombre" onfocus="vaciar(this)" value="Nombre">
 		<br><br>
 
 		<label for="edad">Edad:</label>
-		<input type="text" id="edad" onfocus="Vaciar(this)" value="Edad">
+		<input type="text" id="edad" onfocus="vaciar(this)" value="Edad">
 		<br><br>
 
-		<input type="button" value="Ingresar" onclick="Verificar()">
+		<input type="button" value="Ingresar" onclick="verificar()">
 	</form>
 
 	<script>
 
-		function Vaciar(control){
-			control.value = " ";
+		function vaciar(control){
+			control.value = ' ';
 		}
 
-		function Verificar(){
-			swal("Datos confirmados");
+		function verificar(){
+			swal('Datos confirmados');
 		}
 
 	</script>	

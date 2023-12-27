@@ -10,20 +10,17 @@ const instruccion = `
   CREATE TABLE IF NOT EXISTS Usuarios(
     ID INTERGER PRIMARY KEY, 
     Nombre TEXT, 
-    Email TEXT
-
-  )
-`;
+    Email TEXT)`;
 
 // Ejecutar el comando para crear la tabla
 db.serialize(() => {
   db.run(instruccion, (err) => {
 
     if (err){
-      console.error("Error al crear la tabla:", err.message);
+      console.error('Error al crear la tabla:', err.message);
     
     }else{
-      console.log("Tabla 'Usuarios' creada correctamente");
+      console.log('Tabla 'Usuarios' creada correctamente');
     }  
 
   });

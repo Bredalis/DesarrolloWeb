@@ -16,13 +16,14 @@
 		<input type="checkbox" id="check-3">JavaScript<br>
 		<input type="checkbox" id="check-4">C#<br>
 		<input type="checkbox" id="check-5">Kotlin<br><br>
-		<input type="button" value="Confirmar" onclick="Seleccion()">
+		<input type="button" value="Confirmar" onclick="seleccion()">
 	</form>
 
 	<script>
 		
-		function Seleccion(){
+		function seleccion(){
 			let cantidad = 0;
+			
 			if(document.getElementById('check-1').checked){
 				cantidad++;
 			}
