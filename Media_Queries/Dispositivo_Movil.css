@@ -1,0 +1,20 @@
+
+body {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    padding: 20px;
+}
+
+div {
+    background-color: lightblue;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Media Query para dispositivos móviles */
+@media screen and (max-width: 600px) {
+    body {
+        grid-template-columns: 1fr;
+    }
+}

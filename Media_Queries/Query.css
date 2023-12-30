@@ -1,0 +1,45 @@
+
+body{
+  background-color: rgb(179, 127, 33);
+}
+
+h1{
+    color: moccasin;
+    text-align: center; 
+}
+
+/* Establecer en vista preeliminar */
+@media print{
+
+    body{
+        background-color: white;
+    }
+
+    h1{
+        color: black; 
+    }
+}
+
+/* Establecer estilos en el navegador */
+@media screen and (max-width: 480px){
+
+    body{
+        background-color: pink;
+    }
+
+    h1{
+        color: yellow; 
+    }
+}
+
+/* Establecer estilos en el navegador con un rango */
+@media screen and (min-width: 400px) and (max-width: 480px){
+
+    body{
+        background-color: grey;
+    }
+
+    h1{
+        color: white; 
+    }
+}
